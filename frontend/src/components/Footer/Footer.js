@@ -2,14 +2,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black dark:bg-gray-900">
+    <footer className="bg-black ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap gap-5 justify-around">
           <div className="mr-8">
             <h2 className="mb-1 text-sm font-semibold text-white">Abstract</h2>
             <ul className="text-white">
               <li>
-                <a href="https://flowbite.com/" className="hover:underline">Branches</a>
+                <a href="/" className="hover:underline">Branches</a>
               </li>
             </ul>
           </div>
@@ -29,8 +29,7 @@ const Footer = () => {
                 <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Status</a>
               </li>
             </ul>
-          </div>
-          
+          </div>    
           <div className="mr-8">
             <h2 className="mb-1 text-sm font-semibold text-white">Community</h2>
             <ul className="text-white">
@@ -63,19 +62,19 @@ const Footer = () => {
               <li>
                 <a href="/" className="hover:underline">Legal</a>
               </li>
-              <li>
-                <a href="/" className="mt-1 font-semibold hover:underline">Contact Us</a>
+              <li className="mt-3">
+                <a href="/" className=" font-semibold hover:underline">Contact Us</a>
               </li>
               <li>
                 <a href="/">info@abstract.com</a>
               </li>
             </ul>
           </div>
-          <div className="mr-8 mt-20">
-          <a href="https://www.abstract.com/" className="flex items-center">
+          <div className="mr-8 mt-28 flex items-end">
+          <a href="https://www.abstract.com/" >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHENnu5kFzmgLNKZf94d3EfTJvpXlG7x_8arlo3Mncz2A6PhGLqwxXFU8AppmJEPnNnPs&usqp=CAU"
-              className="h-8 mr-3"
+              src="https://i.ibb.co/wzBQDMH/copyright.jpg"
+              className="w-full mr-3"
               alt="FlowBite Logo"
             />
             
