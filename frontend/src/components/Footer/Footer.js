@@ -17,16 +17,16 @@ const Footer = () => {
             <h2 className="mb-1 text-sm font-bold text-white">Resources</h2>
             <ul className="text-white">
               <li>
-                <a href="https://github.com/themesberg/flowbite" className="hover:underline">Blog</a>
+                <a href="https://www.abstract.com/blog" className="hover:underline">Blog</a>
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Help Center</a>
+                <a href="/" className="hover:underline">Help Center</a>
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Release Notes</a>
+                <a href="https://www.abstract.com/release-notes" className="hover:underline">Release Notes</a>
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Status</a>
+                <a href="https://status.goabstract.com/" className="hover:underline">Status</a>
               </li>
             </ul>
           </div>    
@@ -34,19 +34,19 @@ const Footer = () => {
             <h2 className="mb-1 text-sm font-semibold text-white">Community</h2>
             <ul className="text-white">
               <li>
-                <a href="/" className="hover:underline">Twitter</a>
+                <a href="https://x.com/goabstract" className="hover:underline">Twitter</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/abstract-app/" className="hover:underline">LinkedIn</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Facebook</a>
+                <a href="https://facebook.com/Abstract/" className="hover:underline">Facebook</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Dribbble</a>
+                <a href="https://dribbble.com/abstract" className="hover:underline">Dribbble</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Podcast</a>
+                <a href="https://www.abstract.com/podcast" className="hover:underline">Podcast</a>
               </li>
             </ul>
           </div>
@@ -54,19 +54,19 @@ const Footer = () => {
             <h2 className="mb-1 text-sm font-semibold text-white">Company</h2>
             <ul className="text-white">
               <li>
-                <a href="/" className="hover:underline">About Us</a>
+                <a href="https://www.abstract.com/about" className="hover:underline">About Us</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Careers</a>
+                <a href="https://abstract.breezy.hr/" className="hover:underline">Careers</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Legal</a>
+                <a href="https://www.abstract.com/legal" className="hover:underline">Legal</a>
               </li>
               <li className="mt-3">
-                <a href="/" className=" font-semibold hover:underline">Contact Us</a>
+                <h1 className="font-semibold">Contact Us</h1>
               </li>
               <li>
-                <a href="/">info@abstract.com</a>
+                <a href="mailto:info@abstract.com" className="hover:underline">info@abstract.com</a>
               </li>
             </ul>
           </div>
